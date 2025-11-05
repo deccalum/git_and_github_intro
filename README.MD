@@ -1,7 +1,7 @@
 # Introduction to Git
 
 
-1. **Navigate to Your Project Directory**
+1. **Navigate to Your Project Directory**  
    Open CMD and use the command `cd <directory>`. Alternatively, open a command prompt (cmd) in the project folder.
 
 2. **Initialize a New Git Repository**  
@@ -13,12 +13,12 @@
    git add README.md
    ```
 
-4. **Commit Changes**
-  Use the command :
-    ```bash
-  git commit -m "comment"
-  ```
-   Replace `"comment"` with a description.
+4. **Commit Changes**  
+   Use the command:
+   ```bash
+   git commit -m "Your commit message here"
+   ```
+   Replace "Your commit message here" with a description.
 
 5. **Check Repository Status**  
    Check the status of your repository with:
