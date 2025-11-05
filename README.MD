@@ -22,3 +22,5 @@
     8. Back in your terminal, add the remote repository URL using the command "git remote add origin <URL>". Replace "<URL>" with the copied repository URL.
 
     9. Use "git branch -M main" followed by "git push -u origin main".
+
+    10. Create a .gitignore file and include necessary files and folders to be ignored by git. Alternatively, you can use a template from [here](https://github.com/github/gitignore) or generate one [at](https://www.toptal.com/developers/gitignore).
