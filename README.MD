@@ -1,12 +1,24 @@
-## 1. Introduction to Git
+# Introduction to Git
 
-    ## 1.1 First navigate to your project directory with the "cd <directory>" command or open a cmd instance in the project folder.
-    ## 1.2 Use the command "git init". The command initializes a new Git repository in your current directory.
-    ## 1.3 Add this file (README.MD) to the staging area using the command "git add README.MD".
-    ## 1.4 Use the command "git commit -m "comment"" to commit changes. Replace "comment".
-    ## 1.5 Check status of your repository with "git status". README.MD should be listed as modified or new file.
-    ## 1.6 Run "git add -A" to stage all changes in the repository. Alternatively run "git status" again to see the changes, if the README.MD is untouched you should see the output: 
+
+## First navigate to your project directory with the "cd <directory>" command or open a cmd instance in the project folder.
+
+## Use the command "git init". The command initializes a new Git repository in your current directory.
+
+## Add this file (README.md) to the staging area using the command "git add README.md".
+
+## Use the command "git commit -m "comment"" to commit changes. Replace "comment".
+
+## Check status of your repository with "git status". README.md should be listed as modified or new file.
+
+## Run "git add -A" to stage all changes in the repository. Alternatively run "git status" again to see the changes, if the README.md is untouched you should see the output: 
     On branch master
     Changes to be committed:
     (use "git restore --staged <file>..." to unstage)
-            modified:   README.MD
+            modified:   README.md
+
+## Navigate to github.com and create a new empty repository. Do not initialize with README.md, .gitignore or license. Copy the repository URL.
+
+## Back in your terminal, add the remote repository URL using the command "git remote add origin <URL>". Replace "<URL>" with the copied repository URL.
+
+## Push your changes to the remote repository using the command "git push -u origin master".
