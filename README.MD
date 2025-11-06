@@ -1,14 +1,11 @@
-# **Introduction to Git**
-
+# **Introduction to Git(this is a test)**<br>
 ## **Table of Contents**
  - ###### [Setting Up a New Git Repository](#setting-up-a-new-git-repository)
- - ###### [Various Git & GitHub Workflow](#various-git-&-github-workflow)
+ - ###### [Various Git & GitHub Workflow](#various-git--github-workflow)
       - [*If you are using Microsoft Visual Studio Code*](#microsoft-visual-studio-code)
       - [*Markdown Cheat Sheet*](#markdown-cheat-sheet)
       - [*Useful Git Commands*](#useful-git-commands)
-
-
-
+<br>
 
 ## **Setting Up a New Git Repository**
 1. **Navigate to Your Project Directory**  
@@ -93,17 +90,16 @@
    git commit -m "describe changes made"
    git push
    ```
-
+<br>
 
 ## Various Git & GitHub Workflow
 
-##### Microsoft Visual Studio Code
+   ##### Microsoft Visual Studio Code
    If you are using Visual Studio Code, you can install the [GitLens extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) to help with git commands and visualizations. This will let you see changes, commits, branches, and more directly in the editor.
-   
-   There is also a [markdown preview extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced "Markdown Preview Enhanced") that will let you preview markdown files in vscode.
 
-##### Markdown Cheat Sheet
-[Markdown Cheat Sheet](https://markdowncheatsheet.com/reference) Provides a comprehensive in-depth guide to markdown syntax, including extended features like tables, footnotes, and task lists.
 
-##### Useful Git Commands
-The [Terminal Commands](./Terminal_Commands.md) file provides a couple of useful git commands for various tasks.
+   ##### Markdown Cheat Sheet
+   [Markdown Cheat Sheet](https://markdowncheatsheet.com/reference) Provides a comprehensive in-depth guide to markdown syntax, including extended features like tables, footnotes, and task lists.
+
+   ##### Useful Git Commands
+   The [Terminal Commands](./Terminal_Commands.md) file provides a couple of useful git commands for various tasks.
