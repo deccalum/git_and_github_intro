@@ -91,6 +91,19 @@
    ```
 <br>
 
+ #### Optional: Delete the merged branch<br>
+
+ If you don’t need the feature branch anymore
+
+- Delete locally:
+  
+   ```git branch -d feature-login```
+
+- Delete on GitHub:
+
+   ```git push origin --delete feature-login```
+
+
 ## Various Git & GitHub Workflow
 
    * ##### Microsoft Visual Studio Code
