@@ -1,8 +1,8 @@
 # **Introduction to Git(this is a test)**<br>
 ## **Table of Contents**
- - ###### [Setting Up a New Git Repository](#setting-up-a-new-git-repository)
- - ###### [Various Git & GitHub Workflow](#various-git--github-workflow)
-      - [*If you are using Microsoft Visual Studio Code*](#microsoft-visual-studio-code)
+ - ##### [Setting Up a New Git Repository](#setting-up-a-new-git-repository)
+ - ##### [Various Git & GitHub Workflow](#various-git--github-workflow)
+      - [*Microsoft Visual Studio Code*](#microsoft-visual-studio-code)
       - [*Markdown Cheat Sheet*](#markdown-cheat-sheet)
       - [*Useful Git Commands*](#useful-git-commands)
 <br>
@@ -15,7 +15,7 @@
 2. **Initialize a New Git Repository**  
    Run the command `git init`. The command initializes a new Git repository in your current directory.
 
-3. **Stage a README.md File**  
+3. **Stage a `README.md` File**  
    Add the file to the staging area by running the command:
    ```bash
    git add README.md
@@ -58,14 +58,13 @@
    Replace `<URL>` with the copied repository URL.
 
 9. **Rename Your Branch**  
-   Use:
+   Run:
    ```bash
    git branch -M main
    git push -u origin main
    ```
 
-10. **Create** `.gitignore`  
-   Create a `.gitignore` file and include necessary files and folders to be ignored by git. Alternatively, you can use a template from [GitHub's gitignore repository](https://github.com/github/gitignore) or generate one [at Toptal's gitignore generator](https://www.toptal.com/developers/gitignore).
+10. **Create** a `.gitignore` file and include necessary files and folders to be ignored by git. Alternatively, you can use a template from [GitHub's gitignore repository](https://github.com/github/gitignore) or generate one [at Toptal's gitignore generator](https://www.toptal.com/developers/gitignore).
 
 
 11. **Commit** `.gitignore` 
@@ -94,12 +93,22 @@
 
 ## Various Git & GitHub Workflow
 
-   ##### Microsoft Visual Studio Code
-   If you are using Visual Studio Code, you can install the [GitLens extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) to help with git commands and visualizations. This will let you see changes, commits, branches, and more directly in the editor.
+   * ##### Microsoft Visual Studio Code
 
+      If you are using Visual Studio Code it can provide with some useful extensions for Git.
+      <br>
+      - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): This extension helps with git commands and visualizations. It lets you see changes, commits, branches, and more directly in the editor.
+      - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): This extension provides a visual representation of your Git repository, allowing you to easily view branches, commits, and merges.
+      - [Git Stash](https://marketplace.visualstudio.com/items?itemName=arturock.gitstash): This extension allows you to easily manage your Git stashes directly from Visual Studio Code.
+      - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot): This extension provides AI-powered code suggestions and autocompletions, which can help speed up coding and improve productivity.
+      - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced): This extension provides enhanced markdown preview capabilities, including support for diagrams, math, and more.
+   <br>
+   
+   * ##### Markdown Cheat Sheet
+      [Markdown Cheat Sheet](https://markdowncheatsheet.com/reference) Provides a comprehensive in-depth guide to markdown syntax, including extended features like tables, footnotes, and task lists.
+   <br>
+   
+   * ##### Useful Git Commands
+      The [Terminal Commands](./Terminal_Commands.md) file provides a couple of useful git commands for various tasks.
 
-   ##### Markdown Cheat Sheet
-   [Markdown Cheat Sheet](https://markdowncheatsheet.com/reference) Provides a comprehensive in-depth guide to markdown syntax, including extended features like tables, footnotes, and task lists.
-
-   ##### Useful Git Commands
-   The [Terminal Commands](./Terminal_Commands.md) file provides a couple of useful git commands for various tasks.
+<br>---
